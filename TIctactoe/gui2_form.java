@@ -30,7 +30,7 @@ public class gui2_form {
     static int cell;
     public static void main(String[] args) {
         blank_spaces = 9;
-        player1 = new Player(1,"NO NAME");
+        player1 = new Player("NO NAME");
         player2 = new Player("NO NAME");
         scan = new Scanner(System.in);
         frame = new JFrame("Tictactoe");
