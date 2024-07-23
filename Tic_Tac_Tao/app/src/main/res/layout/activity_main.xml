@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/versus"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="-4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="234dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center_horizontal"
+        android:text="MADE BY SHREYASH JADHAV"
+        android:textColor="#ff0000"
+        android:textSize="34dp" />
+
+    <EditText
+        android:id="@+id/edittext1"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/textView"
+        android:layout_above="@+id/edittext2"
+        android:layout_marginBottom="40dp"
+        android:layout_alignParentLeft="true"
+        android:hint="Player1"
+        android:textColorHint="#FFFFFFFF"
+        android:textSize="35dp" />
+    <EditText
+        android:id="@+id/edittext2"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/button10"
+        android:layout_marginBottom="50dp"
+        android:hint="Player2"
+        android:layout_toRightOf="@+id/edittext1"
+        android:layout_alignParentRight="true"
+        android:textColorHint="#FFFFFFFF"
+        android:textSize="35dp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="100dp"
+        android:layout_height="65dp"
+        android:layout_above="@+id/textBottom"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:text="Press"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/textBottom"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="sans-serif-medium"
+        android:text="DEFAULT PLAYER NAMES WILL BE PLAYER1 AND PLAYER2"
+        android:textColor="#FFFFFFFF"
+        android:textSize="25dp" />
+
+</RelativeLayout>

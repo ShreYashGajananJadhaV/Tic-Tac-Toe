@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Tic_Tac_Tao</string>
+    <string name="button">Button</string>
+    <string name="Button2">Button</string>
+    <string name="button_2">Button_2</string>
+    <string name="activity_1">Activity 1</string>
+    <string name="textview">TextView</string>
+    <string name="enter_second_player_s_name">Enter second player\'s name</string>
+    <string name="made_by_shreysh_gajanan_jadhav">Made by Shreysh Gajanan Jadhav</string>
+    <string name="tic_tac_toe">Tic_Tac_Toe</string>
+    <string name="enter_first_player_s_name">Enter first player\'s name</string>
+    <string name="button12">Button</string>
+    <string name="button1">Button</string>
+    <string name="button2">Button</string>
+</resources>
